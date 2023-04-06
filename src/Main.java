@@ -5,10 +5,10 @@ public class Main {
         System.out.println("Задача 1");
         int geld = 15000;
         int monat = 0;
-        while (monat < 2459000){
+        while (monat < 2459000) {
             int a = 1;
-            for (a = 1; monat < 2459000; a = a +1)
-            monat = monat + geld;
+            for (a = 1; monat < 2459000; a = a + 1)
+                monat = monat + geld;
             System.out.println(a + " месяцев нужно, чтобы накопить " + monat + " рублей. ");
         }
 
@@ -16,15 +16,15 @@ public class Main {
         System.out.println("Задача 2");
         int q = 1;
         while (q <= 10) {
-            System.out.print( " " + q +  " ");
-            q=q+1;
+            System.out.print(" " + q + " ");
+            q = q + 1;
         }
         System.out.println(" ");
 
         for (int w = 10; w >= 1; w = w - 1) {
 
 
-            System.out.print( " " + w + " ");
+            System.out.print(" " + w + " ");
 
         }
 
@@ -41,36 +41,47 @@ public class Main {
         int ch2 = ch * jahre; // 1080000 за 10 лет чистыми
         int ch3 = 12000000;
 
-            for (int a = 1; a <= 10; a = a +1) {
-                ch3 = ch3 + ch;
+        for (int a = 1; a <= 10; a = a + 1) {
+            ch3 = ch3 + ch;
 
-                System.out.println("Год " + a + " численность населения составляет " + ch3);
+            System.out.println("Год " + a + " численность населения составляет " + ch3);
 
         }
-            // task 4-5
+        // task 4-5
         System.out.println("Задача 4 - 5");
         int geld2 = 15000;
         int monat2 = 0;
-            for (int a2 = 1; monat2 <= 12_000_000; a2 = a2 +1) {
-                monat2 = monat2 + geld2 / 700;
-                if (a2 % 6 == 0) {
-                    System.out.println(a2 + " месяц, накопления составляют " + monat2 + " рублей. ");
-                }
+        for (int a2 = 1; monat2 <= 12_000_000; a2 = a2 + 1) {
+            monat2 = monat2 + geld2 / 700;
+            if (a2 % 6 == 0) {
+                System.out.println(a2 + " месяц, накопления составляют " + monat2 + " рублей. ");
             }
+        }
 
 // task 6
         System.out.println("Задача 6");
         int geld3 = 15000;
         int monat3 = 0;
 
-        for (int a3 = 1; a3 <= 108; a3 = a3 +1) {
-            monat3 = monat3 + geld3/700;
+        for (int a3 = 1; a3 <= 108; a3 = a3 + 1) {
+            monat3 = monat3 + geld3 / 700;
             monat3 = monat3 + geld3;
             if (a3 % 6 == 0) {
                 System.out.println(a3 + " месяц, накопления составляют " + monat3 + " рублей. ");
             }
 
         }
-            }
 
+        // task 7
+        System.out.println("Задача 7");
+        int freitag = 7;
+        for (int s = 1; s <= 31; s = s + 1) {
+            if (s % 7 == 0) {
+                System.out.println("Cегодня пятница, пора сделать отчёт");
+            }
+        }
+
+        // task 8
+        System.out.println("Задача 8");
     }
+}
