@@ -1,5 +1,55 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        //task 1
+        System.out.println("Задача 1");
+        int geld = 15000;
+        int monat = 0;
+        while (monat < 2459000){
+            int a = 1;
+            for (a = 1; monat < 2459000; a = a +1)
+            monat = monat + geld;
+            System.out.println(a + " месяцев нужно, чтобы накопить " + monat + " рублей. ");
+        }
+
+        //task 2
+        System.out.println("Задача 2");
+        int q = 1;
+        while (q <= 10) {
+            System.out.print( " " + q +  " ");
+            q=q+1;
+        }
+        System.out.println(" ");
+
+        for (int w = 10; w >= 1; w = w - 1) {
+
+
+            System.out.print( " " + w + " ");
+
+        }
+
+        //task 3
+        System.out.println(" ");
+        System.out.println("Задача 3");
+        int leute = 12_000_000;
+        int ras = leute / 1000; // 12000 раз
+        int neuLeute = 17;
+        int altLeute = 8;
+        int ras2 = neuLeute - altLeute; // чистые 9 человек
+        int jahre = 10;
+        int ch = ras2 * ras; // 108000 человек чистыми в год
+        int ch2 = ch * jahre; // 1080000 за 10 лет чистыми
+        int ch3 = 12000000;
+
+            for (int a = 1; a <= 10; a = a +1) {
+                ch3 = ch3 + ch;
+
+                System.out.println("Год " + a + " численность населения составляет " + ch3);
+
+        }
+
+
+
+            }
+
     }
-}
