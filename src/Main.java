@@ -83,5 +83,14 @@ public class Main {
 
         // task 8
         System.out.println("Задача 8");
+        int jahre1 = 1817;
+        int jahre2 = 2123;
+
+        for (jahre1 = 1817; jahre1 <= 2130; jahre1 = jahre1 + 79 ) {
+            System.out.println(jahre1 );
+        }
+
+
+
     }
 }
