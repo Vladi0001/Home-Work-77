@@ -58,9 +58,19 @@ public class Main {
                 }
             }
 
+// task 6
+        System.out.println("Задача 6");
+        int geld3 = 15000;
+        int monat3 = 0;
 
+        for (int a3 = 1; a3 <= 108; a3 = a3 +1) {
+            monat3 = monat3 + geld3/700;
+            monat3 = monat3 + geld3;
+            if (a3 % 6 == 0) {
+                System.out.println(a3 + " месяц, накопления составляют " + monat3 + " рублей. ");
+            }
 
-
+        }
             }
 
     }
