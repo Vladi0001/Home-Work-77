@@ -47,6 +47,17 @@ public class Main {
                 System.out.println("Год " + a + " численность населения составляет " + ch3);
 
         }
+            // task 4-5
+        System.out.println("Задача 4 - 5");
+        int geld2 = 15000;
+        int monat2 = 0;
+            for (int a2 = 1; monat2 <= 12_000_000; a2 = a2 +1) {
+                monat2 = monat2 + geld2 / 700;
+                if (a2 % 6 == 0) {
+                    System.out.println(a2 + " месяц, накопления составляют " + monat2 + " рублей. ");
+                }
+            }
+
 
 
 
