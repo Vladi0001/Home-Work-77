@@ -52,7 +52,7 @@ public class Main {
         double monht2 = 15000;
         int money2 = 15000;
         for (int a2 = 1; monht2 <= 12_000_000; a2 = a2 + 1) {
-            monht2 = monht2 + money2 * 0.7;
+            monht2 = monht2 + money2 * 0.07;
             if (a2 % 6 == 0) {
                 System.out.println(a2 + " месяц, накопления составляют " + monht2 + " рублей. ");
             }
@@ -79,12 +79,12 @@ public class Main {
 
         }
 
-      // task 8
+     // task 8
         System.out.println("Задача 8");
         int year1 = 2023 - 200;
         int year2 = 2023 + 100;
 
-        for (year1 = 1823; year1 <= 2130; year1 = year1 + 1 ) {
+        for ( ; year1 <= year2; year1 = year1 + 1) {
             if (year1 % 79 == 0)
             System.out.println(year1);
         }
