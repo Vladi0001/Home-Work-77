@@ -49,10 +49,9 @@ public class Main {
         }
         // task 4-5
         System.out.println("Задача 4 - 5");
-        double monht2 = 15000 * 0.07;
-        int money2 = 15000;
+        double monht2 = 15000;
         for (int a2 = 1; monht2 <= 12_000_000; a2 = a2 + 1) {
-            monht2 = monht2 + money2;
+            monht2 = monht2 + monht2 * 0.07;
 
             if (a2 % 6 == 0) {
                 System.out.println(a2 + " месяц, накопления составляют " + monht2 + " рублей. ");
@@ -61,11 +60,10 @@ public class Main {
 
 // task 6
         System.out.println("Задача 6");
-        int money3 = 15000;
         double month3 = 15000 * 0.07;
 
         for (int a3 = 1; a3 <= 108; a3 = a3 + 1) {
-            month3 = month3 + money3;
+            month3 = month3 + month3 * 0.07;
             if (a3 % 6 == 0) {
                 System.out.println(a3 + " месяц, накопления составляют " + month3 + " рублей. ");
             }
